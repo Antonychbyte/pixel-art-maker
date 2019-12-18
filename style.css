@@ -1,0 +1,61 @@
+#windowOfMaker{
+    width: 500px;
+    height: 500px;
+    border: 10px solid gray ;
+    border-radius: 3%;
+}
+.palette{
+    position: relative;    
+    height: 50px;
+    width: 500px;
+    background: gray;
+    
+}
+.canvas{
+    
+    width: 500px;
+    height: 450px;
+    display: block;
+}
+.pixel{
+    
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    float: left;
+}
+#red{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: red;
+
+}
+#blue{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+.colors{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+#currentColor{
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    right: 0px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+#color{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: white;
+
+}
