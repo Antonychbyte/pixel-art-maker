@@ -1,48 +1,42 @@
 #windowOfMaker{
     width: 500px;
-    height: 500px;
-    border: 10px solid gray ;
+    
+    border: 10px solid rgb(194, 194, 194);
     border-radius: 3%;
 }
 .palette{
     position: relative;    
-    height: 50px;
-    width: 500px;
-    background: gray;
+    height: 100px;
+    width: 100%;
+    background: rgb(194, 194, 194);
     
 }
 .canvas{
-    
     width: 500px;
-    height: 450px;
+    height: 500px;
     display: block;
 }
-.pixel{
-    
+.pixel{ 
     display: inline-block;
-    width: 50%;
-    height: 50%;
-    border: 2px solid gray;
+    width: 2%;
+    height: 2%;
+    border: 1px solid rgb(194, 194, 194);
     box-sizing: border-box;
     float: left;
 }
-#red{
+.item{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: red;
-
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 5px;
 }
-#blue{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: blue;
-}
-.colors{
+.itemsWraper{
     display: inline-block;
     position: relative;
     top: 15px;
+    width: 300px;
 }
 #currentColor{
     position: absolute;
