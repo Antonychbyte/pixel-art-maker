@@ -1,6 +1,7 @@
+
 #windowOfMaker{
+    margin: auto;
     width: 500px;
-    
     border: 10px solid rgb(194, 194, 194);
     border-radius: 3%;
 }
@@ -15,6 +16,8 @@
     width: 500px;
     height: 500px;
     display: block;
+    background: white;
+    border-color: rgb(194, 194, 194);
 }
 .pixel{ 
     display: inline-block;
@@ -51,5 +54,18 @@
     width: 40px;
     height: 20px;
     background: white;
-
+    border-radius: 50%;
+    border: 1px solid white;
 }
+.colorPicker {
+    display: block;
+}
+.menu {
+    background: rgb(194, 194, 194);
+    text-align: center;
+}
+button {
+    margin: auto 3px;
+}
+
+
